@@ -1,0 +1,16 @@
+
+解决办法：
+
+vi /etc/ssh/sshd_config
+
+
+UseDNS no
+
+
+重启服务
+systemctl restart sshd
+
+
+合成一条命令
+
+sed -i 's/^#\?UseDNS yes/UseDNS no/' /etc/ssh/sshd_config && systemctl restart sshd
