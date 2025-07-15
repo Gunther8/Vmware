@@ -1,0 +1,18 @@
+使用管理员身份，打开 Powershell，在 Powershell 中输入： 
+
+新
+irm https://get.activated.win | iex
+
+或
+
+旧
+irm https://massgrave.dev/get | iex
+
+
+
+
+选择5
+
+
+选择1
+
