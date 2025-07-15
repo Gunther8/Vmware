@@ -1,0 +1,14 @@
+nmcli connection delete ens192
+
+nmcli connection add type ethernet ifname ens192 con-name ens192
+
+nmcli connection modify ens192 ipv4.method manual ipv4.addresses 10.1.*.*/24 ipv4.gateway 10.1.*.254 ipv4.dns 8.8.8.8
+
+nmcli connection up ens192
+
+ip a
+
+以上命令会激活配置并立即生效，无需重启系统。
+
+需要配合下面工具一起使用
+https://github.com/Gunther8/Vmware/tree/main/tools/VMware%20Paste%20Assistant
