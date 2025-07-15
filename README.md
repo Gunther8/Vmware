@@ -4,7 +4,7 @@
 
 ## 目录结构
 
-- [iso/](./ISO)  
+- [ISO/](./ISO)  
   常用 VMware 相关镜像的下载链接与校验说明。
 
 - [scripts/](./scripts)  
