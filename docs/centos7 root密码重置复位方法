@@ -1,0 +1,42 @@
+出现启动菜单时按e
+
+然后进入GRUB 启动项
+
+然后按箭头下
+
+找到那一行 linux16 开头的内容
+
+linux16 /vmlinuz-3.10.0-1160.el7.x86_64 root=UUID=xxx ro crashkernel=auto rhgb quiet LANG=en_US.UTF-8
+
+
+在这一行的最后加上
+
+rd.break
+注意前面要加一个空格
+
+
+最终形如
+linux16 /vmlinuz-3.10.0-1160.el7.x86_64 root=UUID=xxx ro crashkernel=auto rhgb quiet LANG=en_US.UTF-8 rd.break
+
+
+按下 Ctrl + X 启动进入紧急修复模式（initramfs）
+
+mount -o remount,rw /sysroot
+
+
+chroot /sysroot
+
+你会看到提示符变成：
+sh-4.2#
+
+passwd root
+
+会提示输入新密码两次，输入时屏幕不显示字符，属于正常现象
+
+touch /.autorelabel
+
+
+exit
+exit
+reboot
+
