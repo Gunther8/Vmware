@@ -1,0 +1,18 @@
+从windows.ISO启动
+
+Shift+F10
+调出命令窗口
+
+
+move C:\Windows\System32\Utilman.exe C:\Windows\System32\Utilman.bak
+copy C:\Windows\System32\cmd.exe C:\Windows\System32\Utilman.exe
+
+Ctrl+Alt+Delete
+
+点击右下角轻松使用
+
+net user administrator 123456
+
+进系统
+
+把Utilman.bak放到别的目录，修改成Utilman.exe，然后再放回C:\Windows\System32\就可以了
