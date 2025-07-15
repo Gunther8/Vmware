@@ -16,9 +16,6 @@
     - [shell/](./scripts/shell)
     - [powershell/](./scripts/powershell)
 
-- [tips/](./tips)  
-  常用技巧、经验总结、FAQ、踩坑记录。
-
 - [tools/](./tools)  
   各类运维实用工具包、三方工具说明。
 
