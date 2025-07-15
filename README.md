@@ -7,14 +7,14 @@
 - [ISO/](./ISO)  
   常用 VMware 相关镜像的下载链接与校验说明。
 
+- [docs/](./docs)  
+  操作手册、配置流程、故障排查、经验文档等。
+
 - [scripts/](./scripts)  
   自动化脚本，包含 Python、Shell、PowerShell 各类日常批量运维脚本。
     - [python/](./scripts/python)
     - [shell/](./scripts/shell)
     - [powershell/](./scripts/powershell)
-
-- [docs/](./docs)  
-  操作手册、配置流程、故障排查、经验文档等。
 
 - [tips/](./tips)  
   常用技巧、经验总结、FAQ、踩坑记录。
