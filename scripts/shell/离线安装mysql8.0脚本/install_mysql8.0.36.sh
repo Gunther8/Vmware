@@ -2,7 +2,7 @@
 set -e
 
 # 定义基础路径
-BASE_URL="http://10.6.6.75/mysql8.0.36"
+BASE_URL="http://10.6.6.6/mysql8.0.36"
 WORKDIR="/tmp/mysql8.0.36"
 mkdir -p "$WORKDIR"
 cd "$WORKDIR"
