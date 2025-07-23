@@ -31,7 +31,7 @@
 
    ```bash
    cd /tmp
-   curl -O http://10.6.6.75/mysql8.0.36/install_mysql8.0.36.sh
+   curl -O http://10.6.6.6/mysql8.0.36/install_mysql8.0.36.sh
    ```
 
 2. **赋予脚本执行权限**
