@@ -13,9 +13,7 @@ A lightweight Windows tool that simulates typing clipboard commands into VMware 
 - ✅ No need to install VMware Tools or open SSH
 - 🔒 No auto-start, runs only when you need it
 
-## 🖼️ Screenshot
 
-![screenshot](https://your-screenshot-url-if-any)
 
 ## 🚀 Usage | 使用方法
 
@@ -26,7 +24,7 @@ A lightweight Windows tool that simulates typing clipboard commands into VMware 
 
 ## 📦 Download | 下载
 
-- ✅ [Click here to download paste.exe](https://your-link-to-release-or-binary)
+- ✅ [Click here to download paste.exe](https://github.com/Gunther8/Vmware/blob/main/tools/VMware%20Paste%20Assistant/paste-1.exe)
 - 💡 You can also download and compile the `.ahk` script manually with AutoHotkey
 
 ## 🔧 Build Your Own
