@@ -1,0 +1,4 @@
+*.py   linguist-detectable=true
+*.ps1  linguist-detectable=true
+*.sh   linguist-detectable=true
+*.ahk  linguist-detectable=true
