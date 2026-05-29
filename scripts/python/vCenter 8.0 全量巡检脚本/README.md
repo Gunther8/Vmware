@@ -3,6 +3,7 @@
 基于 Python + pyVmomi 开发的 vCenter 8.0 自动化巡检工具，每日自动采集全量数据，生成带趋势图的 HTML 报告，并推送摘要至企业微信。
 
 ---
+<img width="1920" height="953" alt="image" src="https://github.com/user-attachments/assets/1368b81c-0a13-42bf-aed7-cc37d4309a1f" />
 
 ## 功能特性
 
@@ -53,9 +54,6 @@ python vcenter_report.py
 
 报告会生成在脚本同目录下，文件名格式：`vcenter_report_20260529_073529.html`
 
-**3. 定时执行（可选）**
-
-配合 Windows 任务计划程序每日自动运行，项目目录中附带了 `create_task.ps1` 和 `vcenter_task.xml` 可直接导入。
 
 ---
 
