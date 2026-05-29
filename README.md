@@ -17,7 +17,7 @@
     - [powershell/](./scripts/powershell)
 
 - [tools/](./tools)  
-  各类运维实用工具包、三方工具说明。
+  各类运维实用第三方或者自制工具及使用说明。
 
 ## 使用说明
 
