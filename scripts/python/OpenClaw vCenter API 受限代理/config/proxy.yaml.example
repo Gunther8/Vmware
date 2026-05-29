@@ -1,0 +1,37 @@
+# OpenClaw专用vCenter API Proxy配置示例
+# 复制为 proxy.yaml 并填入实际值
+
+openclaw:
+  # OpenClaw访问Token（通过环境变量注入更安全）
+  api_token: ${OPENCLAW_API_TOKEN}
+
+vcenter:
+  host: "your-vcenter-ip-or-hostname"
+  port: 443
+  username: "your-vcenter-username@vsphere.local"
+  password: ${VCENTER_PROXY_PASSWORD}
+  # 严格限制：仅允许操作此Folder内的VM
+  allowed_folder: "OpenClaw-Automation"
+  # 禁用SSL验证（内网环境）
+  ssl_verify: false
+
+security:
+  # 操作白名单（严格限制）
+  allowed_operations:
+    - "list_vms"
+    - "list_snapshots"
+    - "create_snapshot"
+  
+  # VM名称白名单正则（禁止通配符和危险字符，允许空格）
+  vm_name_pattern: "^[a-zA-Z0-9_ -]+$"
+  vm_name_max_length: 64
+  
+  # 快照创建频率限制
+  rate_limits:
+    create_snapshot:
+      max_requests: 10      # 每窗口最多10次
+      window_seconds: 60    # 60秒窗口
+
+logging:
+  audit_log_path: "logs/audit.log"
+  log_format: "json"        # json格式便于ELK采集
