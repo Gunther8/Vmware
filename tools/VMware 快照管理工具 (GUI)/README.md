@@ -1,8 +1,3 @@
-中文界面 (Chinese UI)
-![image](https://github.com/user-attachments/assets/993cfbbb-f234-4d31-9dd1-6ab99cd3da29)
-
-English Interface
-![image](https://github.com/user-attachments/assets/9a3bf00e-1aeb-41f3-998e-aeb8986ef53e)
 
 
 # VMware 快照管理工具 v1.3
