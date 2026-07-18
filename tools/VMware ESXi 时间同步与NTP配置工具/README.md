@@ -1,4 +1,5 @@
 # VMware ESXi 时间同步与NTP配置工具
+<img width="1226" height="700" alt="image" src="https://github.com/user-attachments/assets/4d3d1fd4-1449-4625-8601-107233283d14" />
 
 一套基于 pyVmomi 开发的 vCenter 虚拟机时间同步排查 + ESXi 主机 NTP 批量配置工具，提供命令行和图形界面两种形式。
 
